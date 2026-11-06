@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Les Ateliers JPM, atelier d’architecture à Bafoussam dirigé par Placide Mekui. Conception résidentielle, commerciale et urbaine.">
+  <meta name="theme-color" content="#f3f1eb">
+  <title>Les Ateliers JPM</title>
+  <link rel="icon" href="assets/mark.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="locales/en.js"></script>
+  <script defer src="locales/fr.js"></script>
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <a class="skip" href="#main" data-copy="skip">Aller au contenu</a>
+  <header class="top">
+    <div class="shell bar">
+      <a class="brand" href="#main"><img src="assets/mark.svg" width="42" height="42" alt=""><span>Les Ateliers JPM</span></a>
+      <nav aria-label="Navigation principale" data-label="navLabel">
+        <a href="#projet" data-copy="navWork">Projet</a>
+        <a href="#services" data-copy="navServices">Services</a>
+        <a href="#atelier" data-copy="navStudio">Atelier</a>
+      </nav>
+      <div class="header-actions">
+        <div class="languages" role="group" aria-label="Langue" data-label="languageLabel">
+          <button type="button" data-language="en" lang="en" aria-label="English" aria-pressed="false">EN</button>
+          <button type="button" data-language="fr" lang="fr" aria-label="Français" aria-pressed="true">FR</button>
+        </div>
+        <a class="header-contact" href="#contact">Contact <span aria-hidden="true">↗</span></a>
+      </div>
+    </div>
+  </header>
+  <main id="main">
+    <section class="hero shell" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow" data-copy="location">Bafoussam, Cameroun</p>
+        <h1 id="hero-title" data-copy="heroTitle">Atelier d’architecture</h1>
+        <p class="intro" data-copy="heroText">Placide Mekui et son équipe conçoivent des lieux adaptés à leurs usages, à leur site et aux ressources locales.</p>
+        <a class="button" href="#contact"><span data-copy="heroCta">Parlons de votre projet</span><span aria-hidden="true">↗</span></a>
+      </div>
+      <figure class="hero-visual">
+        <div class="hero-image"><img src="assets/perspective.webp" width="287" height="444" fetchpriority="high" alt="Vue de trois quarts du complexe, avec ses balcons plantés et son rez-de-chaussée ouvert." data-alt="perspectiveAlt"></div>
+        <figcaption><span data-copy="heroCaption">Étude architecturale · Vue de profil</span><a href="#projet" data-label="workLinkLabel" aria-label="Découvrir le projet">↓</a></figcaption>
+      </figure>
+    </section>
+
+    <section class="work dark" id="projet" aria-labelledby="project-title">
+      <div class="shell">
+        <div class="section-head reveal">
+          <div><p class="eyebrow" data-copy="workLabel">Projet à la une</p><h2 id="project-title" data-copy="workTitle">Un complexe à deux tours</h2></div>
+          <p data-copy="workText">Trois perspectives pour lire le même projet. Les balcons en retrait, les accès au rez-de-chaussée et les piliers obliques donnent sa forme à l’ensemble.</p>
+        </div>
+        <div class="gallery">
+          <figure class="reveal"><img src="assets/front.webp" width="287" height="444" loading="lazy" alt="Façade principale montrant deux volumes et des balcons en retrait." data-alt="frontAlt"><figcaption><span>01</span><span data-copy="frontCaption">Façade · Deux tours</span></figcaption></figure>
+          <figure class="reveal"><img src="assets/perspective.webp" width="287" height="444" loading="lazy" alt="Vue de trois quarts du complexe, avec ses balcons plantés et son rez-de-chaussée ouvert." data-alt="perspectiveAlt"><figcaption><span>02</span><span data-copy="sideCaption">Profil · Profondeur</span></figcaption></figure>
+          <figure class="reveal"><img src="assets/rear.webp" width="287" height="444" loading="lazy" alt="Façade arrière mettant en évidence les accès et les piliers obliques." data-alt="rearAlt"><figcaption><span>03</span><span data-copy="rearCaption">Arrière · Accès et piliers</span></figcaption></figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="services shell" id="services" aria-labelledby="services-title">
+      <div class="section-head reveal">
+        <div><p class="eyebrow" data-copy="navServices">Services</p><h2 id="services-title" data-copy="servicesTitle">Ce que nous concevons</h2></div>
+        <p data-copy="servicesText">L’atelier réunit architectes, ingénieurs et chercheurs pour concevoir des projets adaptés à leur contexte.</p>
+      </div>
+      <div class="service-list">
+        <article class="service reveal">
+          <svg viewBox="0 0 48 48" aria-hidden="true"><path d="M5 23 24 7l19 16M10 20v22h28V20M20 42V29h8v13"/></svg>
+          <h3 data-copy="homeTitle">Habitat</h3>
+          <p data-copy="homeText">Maisons et logements collectifs pensés autour des usages quotidiens et des caractéristiques du terrain.</p>
+        </article>
+        <article class="service reveal">
+          <svg viewBox="0 0 48 48" aria-hidden="true"><path d="M6 42h36M11 42V6h26v36M17 14h4m6 0h4m-14 8h4m6 0h4m-14 8h4m6 0h4m-10 12v-6h6v6"/></svg>
+          <h3 data-copy="urbanTitle">Commerce et urbanisme</h3>
+          <p data-copy="urbanText">Complexes commerciaux et aménagements urbains où les accès, les circulations et les usages guident le plan.</p>
+        </article>
+        <article class="service reveal">
+          <svg viewBox="0 0 48 48" aria-hidden="true"><path d="m5 17 19-10 19 10-19 10L5 17Zm0 8 19 10 19-10M5 33l19 10 19-10"/></svg>
+          <h3 data-copy="materialsTitle">Matériaux et recherche</h3>
+          <p data-copy="materialsText">Recherche et développement sur les matériaux locaux et les techniques constructives, de la terre comprimée à l’adaptation de savoir-faire traditionnels.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="studio" id="atelier" aria-labelledby="studio-title">
+      <div class="studio-banner" aria-hidden="true"></div>
+      <div class="shell studio-grid">
+        <img class="portrait reveal" src="assets/placide.jpg" width="800" height="800" loading="lazy" alt="Portrait de Placide Mekui" data-alt="portraitAlt">
+        <div class="studio-copy reveal">
+          <p class="eyebrow" data-copy="studioLabel">Fondateur et architecte principal</p>
+          <h2 id="studio-title">Placide Mekui</h2>
+          <p data-copy="bioOne">Placide a découvert la construction et la brique de terre comprimée dans la briqueterie familiale. Diplômé de l’Institut des Beaux-Arts de Foumban, il a poursuivi ses études en design d’innovation sociale à l’ESA Saint-Luc à Bruxelles.</p>
+          <p data-copy="bioTwo">Il dirige Les Ateliers JPM à Bafoussam et préside InnovTerre, une association qu’il a cofondée pour valoriser les matériaux naturels et transmettre les techniques de construction adaptées aux réalités locales.</p>
+          <a class="profile-link" href="https://www.linkedin.com/in/placide-mekui-91a905a4/">LinkedIn <span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact dark" id="contact" aria-labelledby="contact-title">
+      <div class="shell contact-grid">
+        <div class="reveal">
+          <p class="eyebrow" data-copy="location">Bafoussam, Cameroun</p>
+          <h2 id="contact-title" data-copy="contactTitle">Parlons de votre projet</h2>
+          <p data-copy="contactText">Écrivez-nous ou appelez l’atelier. Pour commencer, indiquez le lieu, le type de projet et l’étape où vous en êtes.</p>
+        </div>
+        <address class="reveal">
+          <a href="mailto:lesateliersjpm1904@gmail.com"><span><small data-copy="email">Courriel</small>lesateliersjpm1904@gmail.com</span><span aria-hidden="true">↗</span></a>
+          <a href="tel:+237696951503"><span><small data-copy="phone">Téléphone</small>+237 696 951 503</span><span aria-hidden="true">↗</span></a>
+          <a href="tel:+237672768050"><span><small data-copy="secondPhone">Autre numéro</small>+237 672 768 050</span><span aria-hidden="true">↗</span></a>
+        </address>
+      </div>
+    </section>
+  </main>
+  <footer class="dark"><div class="shell footer-inner"><span>Les Ateliers JPM</span><a href="#main"><span data-copy="back">Haut de page</span> ↑</a></div></footer>
+</body>
+</html>
